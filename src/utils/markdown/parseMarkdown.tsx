@@ -1,6 +1,6 @@
-import { CodeBlock } from "src/components/CodeBlock"
-import { jsxFactory } from "utils"
+import { CodeBlock } from "../../components/CodeBlock"
 import type { Toc } from "./markdown.types"
+import { jsxFactory } from "../../index"
 
 export const parseMarkdown = (
   markdown: string

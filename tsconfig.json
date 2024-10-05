@@ -6,7 +6,12 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "outDir": "./dist"
+    "outDir": "./dist",
+
+    /* JSX */
+    "jsx": "react",
+    "jsxFactory": "jsxFactory",
+    "jsxFragmentFactory": "Fragment",
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules", "**/*.spec.ts"]
