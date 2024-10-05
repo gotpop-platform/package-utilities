@@ -1,0 +1,29 @@
+{
+  "name": "@gotpop-platform/utils",
+  "version": "1.0.0",
+  "description": "A collection of utility functions for various projects.",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"No tests specified\" && exit 0",
+    "publish": "bun run publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:gotpop-platform/-gotpop-utils.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "keywords": [
+    "utils",
+    "npm",
+    "package"
+  ],
+  "author": "GotPop",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^4.0.0"
+  }
+}
