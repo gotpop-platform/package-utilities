@@ -1,6 +1,6 @@
 {
   "name": "@gotpop-platform/utils",
-  "version": "1.0.01",
+  "version": "1.0.4",
   "description": "A collection of utility functions for various projects.",
   "main": "src/index.ts",
   "scripts": {

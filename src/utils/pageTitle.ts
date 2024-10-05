@@ -1,5 +1,3 @@
-import { SITE_NAME } from "src/constants"
-
 const toSentenceCase = (str: string) => {
   return str
     .toLowerCase()
@@ -8,7 +6,7 @@ const toSentenceCase = (str: string) => {
     )
 }
 
-export const title = (title = "") =>
+export const title = (title = "", SITE_NAME: string) =>
   SITE_NAME +
   " | " +
   toSentenceCase(title.trim().replace(/[-\/]/g, " "))
