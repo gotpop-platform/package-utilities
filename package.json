@@ -1,6 +1,6 @@
 {
   "name": "@gotpop-platform/utils",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A collection of utility functions for various projects.",
   "main": "src/index.ts",
   "scripts": {
@@ -22,8 +22,8 @@
   ],
   "author": "GotPop",
   "license": "MIT",
-  "dependencies": {},
   "devDependencies": {
+    "@types/node": "^22.7.4",
     "typescript": "^4.0.0"
   }
 }
