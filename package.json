@@ -1,12 +1,12 @@
 {
   "name": "@gotpop-platform/utils",
-  "version": "1.0.0",
+  "version": "1.0.01",
   "description": "A collection of utility functions for various projects.",
   "main": "src/index.ts",
   "scripts": {
     "build": "tsc",
     "test": "echo \"No tests specified\" && exit 0",
-    "publish": "bun run publish"
+    "publish": "dotenv npm publish"
   },
   "repository": {
     "type": "git",
