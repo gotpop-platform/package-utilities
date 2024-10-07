@@ -1,5 +1,5 @@
 {
-  "name": "@gotpop-platform/utils",
+  "name": "@gotpop-platform/package-utilities",
   "version": "1.0.9",
   "description": "A collection of utility functions for various projects.",
   "main": "src/index.ts",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:gotpop-platform/-gotpop-utils.git"
+    "url": "git@github.com:gotpop-platform/-gotpop-package-utilities.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"

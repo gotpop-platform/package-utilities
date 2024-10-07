@@ -1,4 +1,4 @@
-import type { StyleObjProps } from "utils"
+import { StyleObjProps } from "types"
 
 export function styleNames(styles: StyleObjProps) {
   if (!styles || Object.keys(styles).length === 0) {

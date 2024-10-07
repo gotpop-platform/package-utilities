@@ -1,4 +1,4 @@
-# My NPM Package
+# Package Utilities
 
 This is a utility package that provides reusable functions for various projects.
 
@@ -7,7 +7,7 @@ This is a utility package that provides reusable functions for various projects.
 You can install this package using npm:
 
 ```
-npm install @username/my-npm-package
+bun add @gotpop-platform/package-utilities
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ npm install @username/my-npm-package
 To use the utility functions, import them in your project:
 
 ```typescript
-import { functionOne, functionTwo } from '@username/my-npm-package';
+import { title } from '@gotpop-platform/package-utilities';
 ```
 
 ### Example

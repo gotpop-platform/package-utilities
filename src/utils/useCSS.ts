@@ -1,5 +1,6 @@
+import { StyleObjProps } from "types"
 import { readFileSync } from "fs"
-import { styleVars, type StyleObjProps } from "../index"
+import { styleVars } from "../index"
 
 interface UseCSSOptions {
   meta: ImportMeta
