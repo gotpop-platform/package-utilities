@@ -1,12 +1,21 @@
 {
   "compilerOptions": {
-    "target": "ES6",
-    "module": "commonjs",
-    "strict": true,
-    "esModuleInterop": true,
+    "lib": ["dom", "ESNext"],
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleDetection": "force",
+    "allowJs": true,
+
+    /* Bundler mode */
+    "moduleResolution": "node",
+
+    "noEmit": true,
+
+    /* Linting */
     "skipLibCheck": true,
+    "strict": true,
+    "noFallthroughCasesInSwitch": true,
     "forceConsistentCasingInFileNames": true,
-    "outDir": "./dist",
 
     /* JSX */
     "jsx": "react",
@@ -25,6 +34,6 @@
       "utils": ["src/utils"]
     }
   },
-  "include": ["src/**/*"],
+  "include": ["src", "src/**/*", "global.d.ts"],
   "exclude": ["node_modules", "**/*.spec.ts"]
 }

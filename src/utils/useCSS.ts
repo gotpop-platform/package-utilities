@@ -1,10 +1,9 @@
-import { StyleObjProps } from "types"
 import { readFileSync } from "fs"
 import { styleVars } from "../index"
 
 interface UseCSSOptions {
   meta: ImportMeta
-  styles?: StyleObjProps
+  styles?: Record<string, string | number>
 }
 
 export function useCSS({ meta, styles }: UseCSSOptions) {
@@ -16,15 +15,13 @@ export function useCSS({ meta, styles }: UseCSSOptions) {
   const cssFile = readFileSync(thePath, "utf-8")
 
   const theStyleScoped = `
-      @scope{
+      @scope {
          :scope {
           ${theStyle}
          }
-        }`
+      }`
 
-  const css = styles
-    ? `${theStyleScoped}\n${cssFile}`
-    : cssFile
+  const css = styles ? `${theStyleScoped}\n${cssFile}` : cssFile
 
   const useName = theFile?.toLowerCase()
 
