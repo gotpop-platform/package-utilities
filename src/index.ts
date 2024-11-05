@@ -7,4 +7,5 @@ export * from "./utils/mkUrl"
 export * from "./utils/pageTitle"
 export * from "./utils/stylenames"
 export * from "./utils/useCSS"
+export * from "./utils/getPageMetadata"
 
