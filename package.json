@@ -21,6 +21,10 @@
     "package"
   ],
   "author": "GotPop",
+  "prettier": {
+    "printWidth": 100,
+    "semi": false
+  },
   "bun": {
     "version": ">=1.1.34"
   },
